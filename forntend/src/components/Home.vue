@@ -127,4 +127,10 @@ export default {
   backdrop-filter: blur(5px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+.feature-card ::hover {
+    font-size: 18px;
+    box-shadow: 0 6px 16px rgba(33, 85, 34, 0.3);
+    transform: translateY(3px);
+    transition: 0.9s; 
+}
 </style>
